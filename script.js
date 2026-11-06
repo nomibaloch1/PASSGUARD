@@ -21,7 +21,7 @@ password.addEventListener("input", function () {
     const value = password.value;
 
     const checks = {
-        length: value.length >= 8,
+        length: value.length >= 8 ,
         uppercase: /[A-Z]/.test(value),
         lowercase: /[a-z]/.test(value),
         number: /[0-9]/.test(value),
